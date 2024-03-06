@@ -608,8 +608,9 @@ display: flex;
 }
 .comment-message {
         font-size: 12px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.04em;
+        color: rgba(46, 47, 66, 0.4);
     height: 120px;
     width: 100%;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -618,6 +619,8 @@ display: flex;
     resize: none;
     padding: 8px 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    outline: transparent;
     
 }
 .comment-message::placeholder {
