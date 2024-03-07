@@ -378,13 +378,14 @@
     <div class="container-third">
 <p class="subscribe-text">Subscribe</p>
         <form class="subscribe">
-        <label class="subscribe-form-field-label">Subscribe
-            <input type="email"
-             class="subscribe-form-input" 
+        <label class="subscribe-form-field-label" for="user-email-footer">
+            <input class="subscribe-form-input" type="email"
+             id="user-email-footer"
             name="email-user" 
             placeholder="E-mail"/>
         </label>
-        <button class="subscribe-btn" type="submit">Subscribe
+        <button class="subscribe-btn" type="submit">
+            Subscribe
             <svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-subscribe"></use>
             </svg>
@@ -455,8 +456,8 @@
             name="user-comment" 
             id="user-comment"
             placeholder="Text input"
-            required></textarea>
-            <div class="checkbox-wrapper">
+            required></textarea></div>
+        <div class="checkbox-wrapper">
                 <input type="checkbox" 
                 class="feedback-form-privacy-checkbox visually-hidden" 
                 name="user-privacy"
@@ -474,7 +475,7 @@
                     <a class="privacy-policy-link">Privacy Policy</a>
                 </label>
             </div>
-            </div>
+            
             <button type="submit" class="feedback-form-submit-btn">Send</button>
             
         </form>
